@@ -1,11 +1,13 @@
 import React from 'react'
 
-function shopcategory() {
+function Shopcategory() {
   return (
-    <div>
-      
+    <div className="text-black text-2xl font-semibold font-poppins text-center">
+      Janith <br />
+      Wijethunga <br />
+
     </div>
   )
 }
 
-export default shopcategory
+export default Shopcategory
