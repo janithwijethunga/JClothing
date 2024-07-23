@@ -2,8 +2,10 @@ import React from 'react'
 
 function Loginsignup() {
   return (
-    <div>
-      signup
+    <div className="text-black text-2xl font-semibold font-poppins text-center">
+      Signup <br />
+       <br />
+
     </div>
   )
 }

@@ -1,13 +1,12 @@
 import React from 'react'
+import Hero from '../Components/Hero/Hero'
 
 function Shop() {
   return (
-    <div className="text-black text-2xl font-semibold font-poppins text-center">
-      Shop <br />
-       <br />
-
+    <div>
+      <Hero/>
     </div>
-  );
+  )
 }
 
-export default Shop;
+export default Shop
