@@ -5,7 +5,7 @@ import fashiongirl from '../Assets/fashiongirl.png'
 function Hero() {
   return (
     //hero
-    <div className='flex h-lvh border-8 border-black bg-gradient-to-r from-red-500 '>
+    <div className='flex h-lvh border-8 border-black bg-gradient-to-r from-jred '>
       {/* hero-left */}
       <div className='flex flex-1 flex-col justify-center gap-5 pl-40 leading-relaxed'>
         <h1 className='font-poppins text-black text-7xl font-semibold'>NEW ARRIVALS ONLY</h1>
@@ -17,8 +17,8 @@ function Hero() {
           <p className='text-black text-6xl font-poppins font-semibold'>For Everyone</p>
         </div>
         {/* hero latest button */}
-        <div>
-          <div>Latest Collection</div>
+        <div className="flex justify-center items-center gap-4 w-80 h-20 rounded-full mt-16 bg-amber-800">
+          <div className="text-white">Latest Collection</div>
           <img src={rightarrow} alt="right arrow girl" />
         </div>
       </div>
