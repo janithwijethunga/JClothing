@@ -17,8 +17,8 @@ function Hero() {
           <p className='text-black text-6xl font-poppins font-semibold'>For Everyone</p>
         </div>
         {/* hero latest button */}
-        <div className="flex justify-center items-center gap-4 w-[250px] h-[70px] rounded-full mt-16 bg-amber-800">
-          <div className="text-white">Latest Collection</div>
+        <div className="flex justify-center items-center gap-4 w-[250px] h-[70px] rounded-full mt-16 bg-amber-800 opacity-70">
+          <div className=" text-white font-poppins">Latest Collection</div>
           <img src={rightarrow} alt="right arrow girl" />
         </div>
       </div>
